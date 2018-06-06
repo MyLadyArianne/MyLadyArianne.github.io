@@ -1,0 +1,202 @@
+
+<html>
+<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" >
+		<link rel="stylesheet" type="text/css" href="/css/slideshowstyle.css" >
+		
+		
+</head>
+
+
+	<body>
+
+		
+			<div id="header">
+
+				<div class="top">
+
+					
+						<div id="logo">
+							<span class="image avatar48"><img src="../../img/avatar.jpg" alt="" /></span>
+							<h1 id="title">Myrthe van Winkel</h1>
+							<p>3D Digital Artist</p>
+						</div>
+
+					
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="../../#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="../../#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="../../#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="../../#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+				
+				<div class="bottom">
+
+					
+						<ul class="icons">
+              
+						</ul>
+
+				</div>
+
+			</div>
+			
+			
+			
+			
+			
+			<div id="main">
+			<section id="portfolio" class="five">
+				<div class="container">
+					<header class="workmargin">
+						<h5>Motion Capture</h5>
+					</header>
+ 
+		
+					
+					<div style="text-align: left">
+					<br><strong>Project: </strong>Member of the Motion Capture team 
+					<br><strong>Team: </strong>Extra Activity
+					<br><strong>Date: </strong>Started at the beginning of the third year of my education.
+					<br><strong>Tasks: </strong>Help with capturing motion data.
+					<br><strong>Programs: </strong>MVN Studio, Motion Builder, FaceWare Retargetter, FaceWare Anakyzer
+					<br><strong>Description: </strong>As a member if the motion capture team I have gotten hands on experience with the hardware, worked with the software and helped peers with their projects. I have worked with the SenseX suit, making sure nothing happened to it during a shoot as well as worn it. And worked with the equipment and programs to record the data. Next to body motion capture we also have a facial motion capture system from FaceWare we got to work with. Though I have never worn the helmet myself I have helped recording the data. I also looked at the programs you use to progress the data, motion builder for the body and FaceWare analyzer and retargetter for the facial system. I can’t say I am very confident using these programs, never having used motion capture for one of the projects I worked on, but I know the basics.My experience lies in recording the data and not so much in using the data. Which I am interested in but have not yet gotten an opportunity in.
+					<p></p>
+					</div>
+					
+					
+					
+					
+					
+					
+					<div><span class = "slideshow_title">Images</span></div>
+					<div class="slideshow-container">
+					
+					
+					
+					
+					<div class="mySlides1 slideshow_fade">
+						
+						
+						<img src="/slideshows/mocap/mocapshoot.jpg" style="width:100%">
+						<div class="text">Setting up for a shoot.</div>
+						
+					</div>
+					
+					
+					
+					<div class="mySlides1 slideshow_fade">
+						
+						
+						<img src="/slideshows/mocap/mocapsuitchange%20.jpg" style="width:100%">
+						<div class="text">Transferring the sensors from one suit to the second.</div>
+						
+					</div>
+					
+					
+					<a class="prev_btn" onclick="plusSlides(-1, 0)">&#10094;</a>
+					<a class="next_btn" onclick="plusSlides(1, 0)">&#10095;</a>
+					
+					</div>
+					<br />
+					<div style="text-align:center">
+					
+					<span class="dot" onclick="currentSlides( 0 , 0)"></span>
+					
+					<span class="dot" onclick="currentSlides( 1 , 0)"></span>
+					
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+								
+					
+					
+					
+				
+					
+					
+					   
+					
+					
+				</div>
+				</section>
+			</div>
+			
+			
+			
+			<div class="bottom">
+			
+				<ul class="icons">
+					
+				</ul>
+			</div>
+			
+			
+			<div id="footer">
+			
+				<ul class="copyright">
+					<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+				</ul>
+			</div>
+</body>
+
+	<script>
+var slideIndex = [1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+
+function stopVideo(element) {
+        var wrapper = element.querySelector('.videoWrapper');
+
+        if (wrapper) {
+            var iframe = element.querySelector('iframe');
+            var video = element.querySelector('video');
+            if (iframe) {
+                var iframeSrc = iframe.src;
+                iframe.src = iframeSrc;
+            }
+            if (video) {
+                video.pause();
+            }
+        }
+    };
+
+function plusSlides(n, no) {
+  stopVideo(document.getElementsByClassName(slideId[no])[slideIndex[no]-1]);
+  showSlides(slideIndex[no] += n, no);
+}
+
+function currentSlides(n, no) {
+  stopVideo(document.getElementsByClassName(slideId[no])[slideIndex[no]-1]);
+  showSlides(slideIndex[no] = n + 1, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+</html>

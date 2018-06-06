@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sorteds on Prologue</title>
+    <link>/sorted/</link>
+    <description>Recent content in Sorteds on Prologue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/sorted/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/sorted/animation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sorted/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/sorted/olderprojects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sorted/olderprojects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/sorted/rigging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sorted/rigging/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

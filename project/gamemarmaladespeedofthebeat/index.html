@@ -1,0 +1,218 @@
+
+<html>
+<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" >
+		<link rel="stylesheet" type="text/css" href="/css/slideshowstyle.css" >
+		
+		
+</head>
+
+
+	<body>
+
+		
+			<div id="header">
+
+				<div class="top">
+
+					
+						<div id="logo">
+							<span class="image avatar48"><img src="../../img/avatar.jpg" alt="" /></span>
+							<h1 id="title">Myrthe van Winkel</h1>
+							<p>3D Digital Artist</p>
+						</div>
+
+					
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="../../#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="../../#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="../../#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="../../#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+				
+				<div class="bottom">
+
+					
+						<ul class="icons">
+              
+						</ul>
+
+				</div>
+
+			</div>
+			
+			
+			
+			
+			
+			<div id="main">
+			<section id="portfolio" class="five">
+				<div class="container">
+					<header class="workmargin">
+						<h5>Speed of the Beat</h5>
+					</header>
+ 
+		
+					
+					<div style="text-align: left">
+					<br><strong>Project: </strong>Create a game around a custom controller. 
+					<br><strong>Team: </strong>Team project: 2 artist, 2 programmers and 2 designers.
+					<br><strong>Date: </strong>November-December 2016, 2 week project.
+					<br><strong>Tasks: </strong>Create character and model environment props.
+					<br><strong>Programs: </strong>Maya, Photoshop, Unity.
+					<br><strong>Description: </strong>Speed of the beat is a rhythm game where you control a cube shaped character that rolls along the level at the speed of the beat. You progress through the level by jumping over holes and going around corners. The cube character in the level is controlled by pressing the corresponding direction on the physical cube controller you have in front of you. 
+					<p></p>
+					</div>
+					
+					
+					
+					
+					
+					
+					<div><span class = "slideshow_title">Animation</span></div>
+					<div class="slideshow-container">
+					
+					
+					
+					
+					<div class="mySlides1 slideshow_fade">
+						
+						
+						<div class="text"></div>
+						<div class="videoWrapper">
+							<iframe width="100%" height="auto"
+                            src="https://www.youtube.com/embed/duZjFiMjLQo">
+							</iframe>
+						</div>
+						
+					</div>
+					
+					
+					
+					<div class="mySlides1 slideshow_fade">
+						
+						
+						<img src="/slideshows/sotb/p_speedofthebeat.jpg" style="width:100%">
+						<div class="text">screenshot</div>
+						
+					</div>
+					
+					
+					
+					<div class="mySlides1 slideshow_fade">
+						
+						
+						<img src="/slideshows/sotb/speedofthebeatcharacter.png" style="width:100%">
+						<div class="text">The character(s) I designed (and later modeled) as well as an enemy an some UI.</div>
+						
+					</div>
+					
+					
+					<a class="prev_btn" onclick="plusSlides(-1, 0)">&#10094;</a>
+					<a class="next_btn" onclick="plusSlides(1, 0)">&#10095;</a>
+					
+					</div>
+					<br />
+					<div style="text-align:center">
+					
+					<span class="dot" onclick="currentSlides( 0 , 0)"></span>
+					
+					<span class="dot" onclick="currentSlides( 1 , 0)"></span>
+					
+					<span class="dot" onclick="currentSlides( 2 , 0)"></span>
+					
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+								
+					
+					
+					
+				
+					
+					
+					   
+					
+					
+				</div>
+				</section>
+			</div>
+			
+			
+			
+			<div class="bottom">
+			
+				<ul class="icons">
+					
+				</ul>
+			</div>
+			
+			
+			<div id="footer">
+			
+				<ul class="copyright">
+					<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+				</ul>
+			</div>
+</body>
+
+	<script>
+var slideIndex = [1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+
+function stopVideo(element) {
+        var wrapper = element.querySelector('.videoWrapper');
+
+        if (wrapper) {
+            var iframe = element.querySelector('iframe');
+            var video = element.querySelector('video');
+            if (iframe) {
+                var iframeSrc = iframe.src;
+                iframe.src = iframeSrc;
+            }
+            if (video) {
+                video.pause();
+            }
+        }
+    };
+
+function plusSlides(n, no) {
+  stopVideo(document.getElementsByClassName(slideId[no])[slideIndex[no]-1]);
+  showSlides(slideIndex[no] += n, no);
+}
+
+function currentSlides(n, no) {
+  stopVideo(document.getElementsByClassName(slideId[no])[slideIndex[no]-1]);
+  showSlides(slideIndex[no] = n + 1, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+</html>

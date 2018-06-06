@@ -1,0 +1,246 @@
+
+<html>
+<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" >
+		<link rel="stylesheet" type="text/css" href="/css/slideshowstyle.css" >
+		
+		
+</head>
+
+
+	<body>
+
+		
+			<div id="header">
+
+				<div class="top">
+
+					
+						<div id="logo">
+							<span class="image avatar48"><img src="../../img/avatar.jpg" alt="" /></span>
+							<h1 id="title">Myrthe van Winkel</h1>
+							<p>3D Digital Artist</p>
+						</div>
+
+					
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="../../#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="../../#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="../../#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="../../#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+				
+				<div class="bottom">
+
+					
+						<ul class="icons">
+              
+						</ul>
+
+				</div>
+
+			</div>
+			
+			
+			
+			
+			
+			<div id="main">
+			<section id="portfolio" class="five">
+				<div class="container">
+					<header class="workmargin">
+						<h5>DigDug - Redesign</h5>
+					</header>
+ 
+		
+					
+					<div style="text-align: left">
+					<br><strong>Project: </strong>Redesign an old game. 
+					<br><strong>Team: </strong>Team project: 3 artists, 3 programmers and 3 designers.
+					<br><strong>Date: </strong>November-January 2015-2016, 8 week project
+					<br><strong>Tasks: </strong>Design, Model, Texture, Rig and Animate the two enemy characters.
+					<br><strong>Programs: </strong>Maya, Photoshop, Mudbox, XNormal.
+					<br><strong>Description: </strong>Re-invent a retro game. We decided on DigDug as our retro game. In this game you have to kill the enemies by shooting them or digging away the ground on which they stand. We mainly updated the visuals but also completely removed the shooting mechanic adding a puzzle element to the game. This was my first time rigging and animating some characters, which I also had to redesign and make myself. This project also was my first experience working on a game in a team.
+					<p></p>
+					</div>
+					
+					
+					
+					
+					
+					
+					<div><span class = "slideshow_title">Trailer</span></div>
+					<div class="slideshow-container">
+					
+					
+					
+					
+					<div class="mySlides1 slideshow_fade">
+						
+						
+						<div class="text"></div>
+						<div class="videoWrapper">
+							<iframe width="100%" height="auto"
+                            src="https://www.youtube.com/embed/45LQBDIT7vE">
+							</iframe>
+						</div>
+						
+					</div>
+					
+					
+					</div>
+					<br />
+					<div style="text-align:center">
+					
+					<span class="dot" onclick="currentSlides( 0 , 0)"></span>
+					
+					</div>
+					
+					
+					
+					
+					
+					
+					<div><span class = "slideshow_title">Characters I redesigned modelled rigged and animated (I also made the small VFX).</span></div>
+					<div class="slideshow-container">
+					
+					
+					
+					
+					<div class="mySlides2 slideshow_fade">
+						
+						
+						<img src="/slideshows/digdug/pooka.png" style="width:100%">
+						<div class="text"></div>
+						
+					</div>
+					
+					
+					
+					<div class="mySlides2 slideshow_fade">
+						
+						
+						<img src="/slideshows/digdug/dragon.png" style="width:100%">
+						<div class="text"></div>
+						
+					</div>
+					
+					
+					
+					<div class="mySlides2 slideshow_fade">
+						
+						
+						<div class="text"></div>
+						<div class="videoWrapper">
+							<iframe width="100%" height="auto"
+                            src="https://www.youtube.com/embed/chZ1O93W_3c">
+							</iframe>
+						</div>
+						
+					</div>
+					
+					
+					<a class="prev_btn" onclick="plusSlides(-1, 1)">&#10094;</a>
+					<a class="next_btn" onclick="plusSlides(1, 1)">&#10095;</a>
+					
+					</div>
+					<br />
+					<div style="text-align:center">
+					
+					<span class="dot" onclick="currentSlides( 0 , 1)"></span>
+					
+					<span class="dot" onclick="currentSlides( 1 , 1)"></span>
+					
+					<span class="dot" onclick="currentSlides( 2 , 1)"></span>
+					
+					</div>
+					
+					
+					
+					
+								
+					
+					
+					
+				
+					
+					
+					   
+					
+					
+				</div>
+				</section>
+			</div>
+			
+			
+			
+			<div class="bottom">
+			
+				<ul class="icons">
+					
+				</ul>
+			</div>
+			
+			
+			<div id="footer">
+			
+				<ul class="copyright">
+					<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+				</ul>
+			</div>
+</body>
+
+	<script>
+var slideIndex = [1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+
+function stopVideo(element) {
+        var wrapper = element.querySelector('.videoWrapper');
+
+        if (wrapper) {
+            var iframe = element.querySelector('iframe');
+            var video = element.querySelector('video');
+            if (iframe) {
+                var iframeSrc = iframe.src;
+                iframe.src = iframeSrc;
+            }
+            if (video) {
+                video.pause();
+            }
+        }
+    };
+
+function plusSlides(n, no) {
+  stopVideo(document.getElementsByClassName(slideId[no])[slideIndex[no]-1]);
+  showSlides(slideIndex[no] += n, no);
+}
+
+function currentSlides(n, no) {
+  stopVideo(document.getElementsByClassName(slideId[no])[slideIndex[no]-1]);
+  showSlides(slideIndex[no] = n + 1, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+</html>

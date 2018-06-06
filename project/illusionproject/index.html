@@ -1,0 +1,184 @@
+
+<html>
+<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" >
+		<link rel="stylesheet" type="text/css" href="/css/slideshowstyle.css" >
+		
+		
+</head>
+
+
+	<body>
+
+		
+			<div id="header">
+
+				<div class="top">
+
+					
+						<div id="logo">
+							<span class="image avatar48"><img src="../../img/avatar.jpg" alt="" /></span>
+							<h1 id="title">Myrthe van Winkel</h1>
+							<p>3D Digital Artist</p>
+						</div>
+
+					
+						<nav id="nav">
+							
+							<ul>
+								<li><a href="../../#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="../../#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="../../#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="../../#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+				
+				<div class="bottom">
+
+					
+						<ul class="icons">
+              
+						</ul>
+
+				</div>
+
+			</div>
+			
+			
+			
+			
+			
+			<div id="main">
+			<section id="portfolio" class="five">
+				<div class="container">
+					<header class="workmargin">
+						<h5>Illusion Project</h5>
+					</header>
+ 
+		
+					
+					<div style="text-align: left">
+					<br><strong>Project: </strong>Ilsuion Project 
+					<br><strong>Team: </strong>Individual
+					<br><strong>Date: </strong>September-October 2015, 8 week project.
+					<br><strong>Tasks: </strong>Model, texture and render
+					<br><strong>Programs: </strong>Maya, Photoshop.
+					<br><strong>Description: </strong>For this project we had to model a house. Sounds simple but the was a big mistake in the drawing of the house. It seems to be made out a whole house but in reality, this house could not possibly exist out of just one piece. We had to figure out how to solve this problem and model, texture and render the house in Maya. The original drawing of the house was provided by a teacher.
+					<p></p>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+								
+					
+					
+					
+				
+					
+					
+					
+					
+					<h4><p></h4>
+							
+					
+						<img src="/image/illusionandbrokenillusion.jpg" class="workimage">
+					
+					
+					<h4>The house from the camera angle it seems whole and one from were you can clearly see it is not.<p></h4>																					
+					
+					
+					
+					<h4><p></h4>
+							
+					
+						<img src="/image/drawnillusion.jpg" class="workimage">
+					
+					
+					<h4> Part of the exercise included drawing the illusion in a perspective view, orthographic view and an isometric view from the other side.<p></h4>																					
+					
+					   
+					
+					
+				</div>
+				</section>
+			</div>
+			
+			
+			
+			<div class="bottom">
+			
+				<ul class="icons">
+					
+				</ul>
+			</div>
+			
+			
+			<div id="footer">
+			
+				<ul class="copyright">
+					<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+				</ul>
+			</div>
+</body>
+
+	<script>
+var slideIndex = [1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+
+function stopVideo(element) {
+        var wrapper = element.querySelector('.videoWrapper');
+
+        if (wrapper) {
+            var iframe = element.querySelector('iframe');
+            var video = element.querySelector('video');
+            if (iframe) {
+                var iframeSrc = iframe.src;
+                iframe.src = iframeSrc;
+            }
+            if (video) {
+                video.pause();
+            }
+        }
+    };
+
+function plusSlides(n, no) {
+  stopVideo(document.getElementsByClassName(slideId[no])[slideIndex[no]-1]);
+  showSlides(slideIndex[no] += n, no);
+}
+
+function currentSlides(n, no) {
+  stopVideo(document.getElementsByClassName(slideId[no])[slideIndex[no]-1]);
+  showSlides(slideIndex[no] = n + 1, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+</html>

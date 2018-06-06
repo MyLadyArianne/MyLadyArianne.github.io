@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/sorted/animation/</loc>
+  </url>
+  
+  <url>
+    <loc>/sorted/olderprojects/</loc>
+  </url>
+  
+  <url>
+    <loc>/sorted/rigging/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/project/comprehensivehumanrig/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/digdug/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/escapetofreedom/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/ggj2017/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/ggj2018/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/illusionproject/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/meadowfolk/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/motioncapture/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/project/ragnarok/</loc>
+  </url>
+  
+  <url>
+    <loc>/sorted/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/project/gamemarmaladespeedofthebeat/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/project/physicsgame/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/tankanimation/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/thrasher/</loc>
+  </url>
+  
+</urlset>
