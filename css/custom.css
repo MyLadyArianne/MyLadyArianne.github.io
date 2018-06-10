@@ -1681,7 +1681,7 @@
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
+	p, ul, ol, dl, table {	
 		margin-bottom: 2em;
 	}
 
@@ -2530,7 +2530,7 @@
 				#main >section.five
 				{
 					padding: 1.5em 0 0 0;
-					background-color: #f5fafa;
+					background-color: #444;
 				}
 
 				#main section.cover {
