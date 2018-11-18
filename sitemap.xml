@@ -66,6 +66,14 @@
   </url>
   
   <url>
+    <loc>/project/raptorrig/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/scripting/</loc>
+  </url>
+  
+  <url>
     <loc>/sorted/</loc>
     <priority>0</priority>
   </url>

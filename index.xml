@@ -119,6 +119,24 @@
     </item>
     
     <item>
+      <title>Raptor rig</title>
+      <link>/project/raptorrig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/raptorrig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scripting in Maya using Python</title>
+      <link>/project/scripting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/scripting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Speed of the Beat</title>
       <link>/project/gamemarmaladespeedofthebeat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

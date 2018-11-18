@@ -3,7 +3,7 @@
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 80%;
   position: relative;
   margin: auto;
 }
@@ -88,7 +88,7 @@
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4
+    opacity: .8
   }
   to {
     opacity: 1
